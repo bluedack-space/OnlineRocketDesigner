@@ -1,0 +1,35 @@
+app     = "OnlineRocketDesigner"
+version = "1.0"
+
+[configuration]
+    type = "ASMMatWeb"
+    id   = "ID-PROPERTY-MATERIAL-ASMMATWEB"
+
+[version-control]
+    user_admin   = "fujimoto"
+    user_updated = "fujimoto"
+
+[property-data-set]
+    [[property]]
+        materialName='Inconel718'
+        YoungModulus=200000 #[MPa]
+        Density=8190.0 #[kg/m3]
+        TensileStrengthUltimate=1375.0 #[MPa]
+        TensileStrengthYield=1100.0 #[MPa]
+        ElongationAtBreak=25.0 #[%]
+        CTElinear20degc=13.0 #[µm/m-°C]
+        SpecificHeatCapacity=0.435 #[J/g-°C]
+        ThermalConductivity=11.4 #[W/m-K]
+        MeltingPoint=1260 #-1336 °C	
+
+    [[property]]
+        materialName='Inconel718-2'
+        YoungModulus=200000 #[MPa]
+        Density=8190.0 #[kg/m3]
+        TensileStrengthUltimate=1375.0 #[MPa]
+        TensileStrengthYield=1100.0 #[MPa]
+        ElongationAtBreak=25.0 #[%]
+        CTElinear20degc=13.0 #[µm/m-°C]
+        SpecificHeatCapacity=0.435 #[J/g-°C]
+        ThermalConductivity=11.4 #[W/m-K]
+        MeltingPoint=1260 #-1336 °C	
